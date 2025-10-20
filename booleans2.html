@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+        //for loop 1
+        // let hour = 22;
+        // const name = 'FLZ';
+        // if (hour >= 6 && hour <= 12) {
+        //     console.log(`morning ${name} `)
+        // } else if (hour >= 13 && hour <= 17) {
+        //     console.log(`good day ${name} `)
+        // } else if (hour >= 18 && hour <= 21) {
+        //     console.log(`good evening ${name} `)
+        // } else(alert(`GO sleep ${name} `))
+        const age = 91;
+        const message = (age <= 6 || age >= 65) ? 'discount' : 'no discount';
+        console.log(message);
+
+
+
+
+
+        const age2 = 91;
+        const discount = (age2 <= 6 && age2 >= 65) ? ' discount' : ' no discount'
+        console.log(discount)
+            //for loop 2
+            // const age = 5;
+            // const isHoliday = true
+            // if (age <= 6 || age >= 65) {
+            //     console.log("U have a discount")
+            // } else(console.log("NO discount for u "))
+            // if (isHoliday) {
+            //     console.log("Good for u")
+            // } else {
+            //     console.log("NAH")
+            // }
+
+
+
+
+        //for loop 2.1 answear version
+
+
+        //   const age = 5;
+        //   const isHoliday = true;
+
+        //   // && has a higher priority than || so for
+        //   // this to work correctly, we need to add
+        //   // brackets () around the || check to make
+        //   // sure that it gets done first.
+        //   if ((age <= 6 || age >= 65) && !isHoliday) {
+        //     console.log('Discount');
+        //   } else {
+        //     console.log('No discount');
+        //   } 
+        const age3 = 2;
+        const isHoliday = true
+        const discount2 = ((age2 <= 6 || age2 >= 65) && isHoliday === false) ? ' discount' : ' no discount'
+        console.log(discount2)
+            // loop 3
+            // let random = Math.random('')
+            // if (random <= 0.5) {
+            //     console.log("head")
+            // } else(random >= 0.5); {
+            //     console.log("tails")
+            // }
+
+
+
+        // let random = Math.random()
+        // let result;
+        // if (random <= 0.5) {
+        //     let result = 'heads';
+        // } else(random >= 0.5); {
+        //     let result = 'tails'
+        // }
+
+        // const guess = 'heads';
+
+        // if (guess === result) {
+        //     console.log('You win!');
+        // } else {
+        //     console.log('You lose!');
+        // }
+
+
+        // const random = Math.random() <= 0.5 ? 'heads' : 'tails';
+        // const guess = 'heads';
+        // console.log(guess === random ? 'win' : 'lose');
+
+        // this is how the structure of ternay opperators looks like: 
+        // you need to have a Condition () ? exeption nmr 1 : exeption nmr 2
+        // the ?  sing does is separating condition from expression, mean while : separates exeptions between each other
+    </script>
+</body>
+
+
+</html>
